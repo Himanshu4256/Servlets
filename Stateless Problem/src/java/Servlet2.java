@@ -37,7 +37,7 @@ public class Servlet2 extends HttpServlet {
             out.println("</head>");
             out.println("<body>");
             String name = request.getParameter("name");
-            out.println("<h1>Hello " + name + " welcome to my Second website..... = [Yha null aaya hai bcoz jase hi ham ek se dusre servlet pr gye to usne purana name contain ni kiya <br> this clld Stateless Problem]</h1>");
+            out.println("<h1>Hello " + name + " welcome to my Second website..... = [Yha null aaya hai except name bcoz jase hi ham ek se dusre servlet pr gye to usne purana name contain ni kiya <br> this clld Stateless Problem]</h1>");
             out.println("<h1>Thanku</h1>");
             out.println("</body>");
             out.println("</html>");
